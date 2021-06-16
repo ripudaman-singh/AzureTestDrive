@@ -71,7 +71,8 @@ def main():
     #global baseStorageAccountName
 
     #baseStorageAccountName = sys.argv[2]
-    config_file_url = "https://raw.githubusercontent.com/PaloAltoNetworks/azure/master/vmseries-test-drive/"
+    #config_file_url = "https://raw.githubusercontent.com/PaloAltoNetworks/azure/master/vmseries-test-drive/"
+    config_file_url = "https://raw.githubusercontent.com/ripudaman-singh/AzureTestDrive/main/"
 
     t1 = threading.Thread(name='config_fw',target=config_fw)
     t1.start()
